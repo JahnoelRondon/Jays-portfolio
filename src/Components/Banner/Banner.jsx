@@ -2,7 +2,10 @@ import './banner.css'
 
 function Banner(){
     return (
-        <h1>Banner</h1>
+        <section className='bannerContainer'>
+            <h1>Jahnoel Rondon</h1>    
+            <p>Software Engineer</p>
+        </section>
     )
 }
 

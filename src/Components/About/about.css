@@ -1,0 +1,29 @@
+.aboutContainer {
+    width: 100%;
+    background-color: #cf948d;
+    padding: 20px 0;
+}
+
+.aboutFlex {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 3%;
+
+    padding: 20px;
+    
+    box-shadow: 2px 2px 16px black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.aboutContainer img {
+    border-radius: 20%;
+    border: 2px solid black;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
