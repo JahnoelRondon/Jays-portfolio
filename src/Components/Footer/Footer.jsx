@@ -2,7 +2,9 @@ import './footer.css'
 
 function Footer(){
     return(
-        <h1>Footer</h1>
+        <footer>
+            <p>Developed and Designed by Jahnoel Rondon - ©2021</p>
+        </footer>
     )
 }
 

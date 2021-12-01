@@ -15,7 +15,7 @@ function Projects(){
 
         {
             title: 'Creature Slayers', 
-            desc: 'Creature Slayers is a Turn Based Web Browser game where you hunt down creatures for a bounty.The project was built using Pure JavaScript, DOM manipulation, Events, HTML, and CSS.',
+            desc: 'Creature Slayers is a Turn Based Web Browser game where you hunt down creatures for a bounty. The project was built using Pure JavaScript, DOM manipulation, Events, HTML, and CSS.',
             img:'https://raw.githubusercontent.com/JahnoelRondon/TurnBasedGame/main/imgs/CreatureSlayersTitle.png',
             deployLink: 'https://youthful-goldwasser-877b0e.netlify.app/',
             ghubLink: 'https://github.com/JahnoelRondon/TurnBasedGame'
@@ -36,9 +36,13 @@ function Projects(){
                   proj.map((obj, idx) => (
                     <div className='projCard' key={idx} >
                         <h3>{obj.title}</h3>
-                        <img src={obj.img}/>
+                        <img src={obj.img} alt='not valid'/>
                         <p>{obj.desc}</p>
                         {/* make links here and style them to look like buttons */}
+                        <div className='projLinks'>
+                            <a href={obj.deployLink} alt='not valid'>Deployed</a>
+                            <a href={obj.ghubLink} alt='not valid'>GitHub</a>                            
+                        </div>
                     </div>
                   ))
               }

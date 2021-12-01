@@ -21,15 +21,61 @@
 
 .projCard {
 
-    background-color: burlywood;
+    background-color: #142f43;
     
-
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
     padding: 20px;
-    margin: 20px 20px 0 20px;
+    margin: 20px;
 }
 
+.projCard h3 {
+    color: white;
+    font-size: 3vw;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    text-shadow: 3px 5px 12px black;
+}
+
+.projCard img {
+    width: 80%;
+}
+
+.projCard p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 20px 5px;
+    text-shadow: 3px 3px 4px black;
+}
+
+.projLinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.projLinks a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: inset 2px 2px 12px currentColor;
+    transition: all 0.3s;
+
+    margin: 0 5%;
+}
+
+.projLinks a:hover {
+    color: #ffe699;
+    box-shadow: inset 1px 2px 8px currentColor;
+}
+
+
+
+/* Responsiveness */
