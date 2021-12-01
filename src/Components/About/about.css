@@ -30,3 +30,20 @@
     letter-spacing: 2px;
     line-height: 26px;
 }
+
+@media only screen and (max-width: 600px){
+    .aboutContainer img {
+        display: none;
+    }
+
+    .aboutFlex {
+        border-radius: 0;
+    }
+
+    .textContainer p {
+        font-size: 8px;
+        line-height: 20px;
+        letter-spacing: 1.2px;
+        text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    }
+}

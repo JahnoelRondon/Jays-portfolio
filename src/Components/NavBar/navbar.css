@@ -5,7 +5,9 @@ nav {
     justify-content: space-between;
     width: 100vw;
     border-bottom:  2px solid red;
+    
 }
+
 
 
 .interactContainer {
@@ -15,6 +17,34 @@ nav {
 
 .interactContainer p {
     margin: 0 10px;
-    font-size: 2vh;
+    font-size: 18px;
+    transition: all 0.5s;
 }
 
+.interactContainer p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .title {
+        text-align: center;
+        width: 70%;
+        padding: 20px 0;
+        border-bottom: crimson 2px solid;
+    }
+
+    .interactContainer {
+        padding: 10px 0;
+    }
+
+    .interactContainer p {
+        font-size: 12px;
+    }
+}

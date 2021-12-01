@@ -4,16 +4,13 @@ import './navbar.css';
 function NavBar(){
     return (
         <nav>
-            <h1>JR</h1>
-
+            <h1 className='title'>JR</h1>
             <div className="interactContainer">
                 <p>About me</p>
                 <p>Skills</p>
                 <p>Projects</p>
                 <p>Contact me</p>                
             </div>
-
-
         </nav>
     )
 }

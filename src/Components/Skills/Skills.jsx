@@ -4,6 +4,7 @@ function Skills(){
     return (
         <section className='skillSection'>
             <h2 className='skillsTitle'>Technical Skills</h2>
+            
             <div className='skillsContainer'>
                 <div className='skillCard'>
                     <h4>Front-end</h4>
