@@ -1,19 +1,65 @@
 nav {
-    padding: 0 20px;
-    background-color: orange;
+    padding: 20px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    border-bottom:  2px solid red;
+    background-color: white;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
+.title {
+    color: black;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+.title:hover {
+    color: red;
+    transition: all 0.5s;
+}
 
 .interactContainer {
     display: flex;
     
 }
 
-.interactContainer p {
+.interactContainer a {
+    text-decoration: none;
+    color: black;
     margin: 0 10px;
-    font-size: 2vh;
+    font-size: 18px;
+    transition: all 0.5s;
 }
 
+.interactContainer a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .title {
+        text-align: center;
+        width: 70%;
+        font-size: 24px;
+        border-bottom: crimson 2px solid;
+    }
+
+    .interactContainer {
+        padding: 10px 0;
+    }
+
+    .interactContainer a {
+        font-size: 12px;
+    }
+}
