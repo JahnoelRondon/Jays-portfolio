@@ -5,7 +5,22 @@ nav {
     justify-content: space-between;
     width: 100%;
     border-bottom:  2px solid red;
-    
+    background-color: white;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.title {
+    color: black;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+.title:hover {
+    color: red;
+    transition: all 0.5s;
 }
 
 .interactContainer {
@@ -36,7 +51,7 @@ nav {
     .title {
         text-align: center;
         width: 70%;
-        padding: 20px 0;
+        font-size: 24px;
         border-bottom: crimson 2px solid;
     }
 

@@ -6,7 +6,7 @@ import {HashLink} from 'react-router-hash-link';
 function NavBar(){
     return (
         <nav>
-            <h1 className='title'>JR</h1>
+            <HashLink className='title' smooth to="#top">JR</HashLink>
             <div className="interactContainer">
                 <HashLink smooth to="#about">About Me</HashLink>
                 <HashLink smooth to="#skills">Skills</HashLink>
