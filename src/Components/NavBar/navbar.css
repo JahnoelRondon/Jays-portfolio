@@ -3,12 +3,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     border-bottom:  2px solid red;
     
 }
-
-
 
 .interactContainer {
     display: flex;

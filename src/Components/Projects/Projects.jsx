@@ -24,8 +24,6 @@ function Projects(){
 
     ]
 
-    console.log(proj)
-
     return (
         <section className='projectsWrapper'>
           <h1 className='projTitle'>Projects</h1>  
