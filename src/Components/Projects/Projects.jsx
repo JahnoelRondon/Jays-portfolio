@@ -25,7 +25,7 @@ function Projects(){
     ]
 
     return (
-        <section className='projectsWrapper'>
+        <section className='projectsWrapper' id='projects'>
           <h1 className='projTitle'>Projects</h1>  
           <div className='projFlex'>
               {/* map here */}
@@ -38,8 +38,8 @@ function Projects(){
                         <p>{obj.desc}</p>
                         {/* make links here and style them to look like buttons */}
                         <div className='projLinks'>
-                            <a href={obj.deployLink} alt='not valid'>Deployed</a>
-                            <a href={obj.ghubLink} alt='not valid'>GitHub</a>                            
+                            <a href={obj.deployLink} alt='not valid' target="_blank" rel="noreferrer">Deployed</a>
+                            <a href={obj.ghubLink} alt='not valid' target="_blank" rel="noreferrer">GitHub</a>                            
                         </div>
                     </div>
                   ))

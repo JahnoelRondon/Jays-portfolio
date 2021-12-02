@@ -2,7 +2,7 @@ import './about.css'
 
 function About(){
     return(
-        <section className='aboutContainer'>
+        <section className='aboutContainer' id='about'>
             <div className='aboutFlex'>
                 <img src="https://i.imgur.com/PEUJU52.jpg" alt="pfp" width='240px' height='300px'/>
                 <div className='textContainer'>
