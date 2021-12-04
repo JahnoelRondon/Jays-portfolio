@@ -29,6 +29,7 @@
 
 .bannerContainer:hover h1 {
     animation: zoom 0.9s;
+    animation-iteration-count: 2;
 }
 
 .bannerContainer:hover p {
