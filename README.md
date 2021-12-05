@@ -1,6 +1,6 @@
 # Jahnoels Portfolio
 
-This project was created with [Create React App](https://github.com/facebook/create-react-app).
+[Visit Portfolio Here](https://xenodochial-elion-7e9e68.netlify.app)
 
 ## General 
 
@@ -10,8 +10,8 @@ This repo is an ongoing project for my portfolio.
 
 1. Created React App. Wrote Skeleton for each component.
 2. Began planning css format that all sections would follow.
-3. Created array of objects to be mapped with jsx 
-4. Installed npm package `react-hash-router` for scrolling to section and made nav sticky
+3. Created array of objects to be mapped with jsx for my projects section.
+4. Installed npm package `react-hash-router` for scrolling to section and made nav sticky.
    
 
 ## Future Feature's
