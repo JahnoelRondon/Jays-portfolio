@@ -3,6 +3,7 @@ import './projects.css'
 function Projects(){
 
     let proj = [
+        // add To do proj here
 
         {
             title: 'Gnome Home', 
