@@ -4,6 +4,14 @@ function Projects(){
 
     let proj = [
         // add To do proj here
+        {
+            title: 'Marq', 
+            desc: 'Marq is a organizational/list-making application. It has many feature\'s to keep track of your time management as well as planning. There are many todo apps however Marq tackle\'s the list making apps from a different angle and seperates the different kind of simple notes a person might make. With Marq you have the utilities right out of the box however you still have the flexibility to choose what you do and how you organize yourself. This app was made using Django, Python, Bootstrap, Javascript, HTML and CSS.',
+            img:'https://i.imgur.com/ryY4RLb.png',
+            deployLink: 'https://p4marq.herokuapp.com/',
+            ghubLink: 'https://github.com/JahnoelRondon/Marq-1'
+
+        },
 
         {
             title: 'Gnome Home', 
