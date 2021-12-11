@@ -8,7 +8,7 @@ function Skills(){
             <div className='skillsContainer'>
                 <div className='skillCard'>
                     <h4>Front-end</h4>
-                    <p>ReactJS - CSS3 - Javascript - DOM Manipulation - Responsive Design - HTML - Flex Box - CSS Grid</p>
+                    <p>ReactJS - CSS3 - Javascript - DOM Manipulation - Responsive Design - HTML - Flex Box - CSS Grid - Bootstrap</p>
                 </div>
 
                 <div className='skillCard'>
