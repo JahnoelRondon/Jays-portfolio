@@ -17,7 +17,7 @@ function Projects(){
         {
             title: 'Travutan', 
             desc: 'Travutanrocketrocket is a web app that allows travelers to find everything they’re looking for about their next destination. Connecting travelers looking for help to find potential destinations, or simply browsing to know more about a specific destination.',
-            tech: "",
+            tech: "RoadGoat API, React, Node.js, Express, MongoDB, Javascript, HTML, CSS",
             img:'https://i.imgur.com/lvS01Bd.png',
             deployLink: null,
             ghubLink: 'https://github.com/lrmoon/travutan'
@@ -56,9 +56,8 @@ function Projects(){
                     <div className='projCard' key={idx} >
                         <h3>{obj.title}</h3>
                         <img src={obj.img} alt='not valid'/>
-                        <p>{obj.desc}</p>
-                        
-                        <p><strong>Technologies used</strong>{obj.tech}</p>
+                        <p><strong>Description</strong><br></br>{obj.desc}</p>
+                        <p><strong>Technologies used</strong><br></br>{obj.tech}</p>
 
                         <div className='projLinks'>
                             <a href={obj.ghubLink} alt='not valid' target="_blank" rel="noreferrer">View Repo</a>                            

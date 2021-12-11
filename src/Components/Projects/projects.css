@@ -52,6 +52,11 @@
     letter-spacing: 1.5px;
     padding: 20px 5px;
     text-shadow: 3px 3px 4px black;
+    align-self: flex-start;
+}
+
+.projCard p strong {
+    font-size: 24px;
 }
 
 .projLinks {
