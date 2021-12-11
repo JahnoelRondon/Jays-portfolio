@@ -26,21 +26,19 @@
 .contactsContainer {
     display: flex;
     justify-content: center;
-
     
 }
 
 .contactsContainer a {
-    color: black;
-    text-decoration: none;
-    padding: 10px 20px;
     margin: 0 5px;
-    background-color: rgba(222, 184, 135, 0.5);
-    transition: all 0.4s;
 }
 
-.contactsContainer a:hover {
-    
-    background-color: rgba(222, 184, 135, 0.8);
+.contactsContainer a svg {
+    font-size: 34px;
+    color: #142f43;
+    transition: all 0.5s;
+}
+
+.contactsContainer a svg:hover {
     color: red;
 }
