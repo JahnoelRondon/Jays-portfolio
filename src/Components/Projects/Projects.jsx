@@ -55,8 +55,8 @@ function Projects(){
                         <p>{obj.desc}</p>
                         {/* make links here and style them to look like buttons */}
                         <div className='projLinks'>
-                            <a href={obj.deployLink ? obj.deployLink : "#"} alt='not valid' target="_blank" rel="noreferrer">{obj.deployLink ? "Deployed" : "Under"}</a>
-                            <a href={obj.ghubLink} alt='not valid' target="_blank" rel="noreferrer">GitHub</a>                            
+                            <a href={obj.ghubLink} alt='not valid' target="_blank" rel="noreferrer">View Repo</a>                            
+                            <a href={obj.deployLink ? obj.deployLink : "#"} alt='not valid' target="_blank" rel="noreferrer">{obj.deployLink ? "Live App" : "Under Construction"}</a>
                         </div>
                     </div>
                   ))
