@@ -15,6 +15,7 @@ function Contact(){
 
             <form action="https://formsubmit.co/jahnoelrondon03@gmail.com" method="POST" id='usrform' autocomplete="off" className='contactFlex'>
 
+                <input type="hidden" name="_subject" value="Email From Portfolio!" />
                 <input type="email" name="email" placeholder='Your email' required/>
                 <textarea rows="4" cols="50" name="message" placeholder='Write your message here' required form="usrform"/>
                 <button type="submit">Send</button>
