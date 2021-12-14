@@ -31,6 +31,7 @@
 
     padding: 20px;
     margin: 20px;
+    box-shadow: 4px 4px 8px black;
 }
 
 .projCard h3 {
@@ -43,8 +44,21 @@
 
 .projCard img {
     width: 60%;
-    transition: all 0.5s;
+    box-shadow: 4px 4px 8px black;
+
 }
+
+.projCard img:hover {
+    animation: tilt 0.4s;
+}
+
+@keyframes tilt {
+    0% { transform: skew(0deg); }
+    50% { transform: skew(-2deg); }
+    75% { transform: skew(1deg); }
+    100% { transform: skew(0deg); }
+}
+
 
 .projCard p {
     color: white;
