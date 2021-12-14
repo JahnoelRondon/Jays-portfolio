@@ -13,12 +13,12 @@ function Contact(){
                 <a href='https://github.com/JahnoelRondon' target="_blank" rel="noreferrer"><FaGithub /></a>
             </div>
 
-            <p>Email me</p>
+            <form action="https://formsubmit.co/jahnoelrondon03@gmail.com" method="POST" id='usrform' autocomplete="off" className='contactFlex'>
 
-            <form action="https://formsubmit.co/jahnoelrondon03@gmail.com" method="POST" autocomplete="off">
-                <input type="email" name="email" placeholder='email' required/>
-                <input type="text" name="message" placeholder='write your message here' required/>
+                <input type="email" name="email" placeholder='Your email' required/>
+                <textarea rows="4" cols="50" name="message" placeholder='Write your message here' required form="usrform"/>
                 <button type="submit">Send</button>
+
             </form>
 
         </section>

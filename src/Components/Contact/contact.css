@@ -26,7 +26,7 @@
 .contactsContainer {
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 10px;
 }
 
 .contactsContainer a {
@@ -41,4 +41,43 @@
 
 .contactsContainer a svg:hover {
     color: red;
+}
+
+
+.contactFlex {
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr;
+    grid-gap: 20px;
+
+    background-color: #142f42;
+    padding: 20px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+}
+
+textarea {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+}
+
+button {
+    font-size: 16px;
+    transition: all 0.5s;
+    border: none;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(194, 233, 255);
+    border: none;
 }
