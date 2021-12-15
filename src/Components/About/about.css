@@ -18,7 +18,6 @@
 
 .aboutContainer img {
     margin: auto 0;
-    border-radius: 30%;
     box-shadow: 2px 2px 8px black;
 }
 
@@ -37,7 +36,14 @@
     text-align: center;
     letter-spacing: 4px;
     border-bottom: black 2px solid;
-    margin: 0 20px 10px 20px;
+    margin: 0 20px 20px 20px;
+}
+
+.textContainer p {
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: 420;
+    padding: 0 20px;
 }
 
 @media only screen and (max-width: 600px){
