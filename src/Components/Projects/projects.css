@@ -85,15 +85,18 @@
     text-decoration: none;
     color: white;
     padding: 10px 20px;
-    box-shadow: inset 2px 2px 12px currentColor;
-    transition: all 0.3s;
+    border: 2px solid white;
+    transition: all 0.4s;
 
     margin: 0 5%;
 }
 
 .projLinks a:hover {
-    color: rgb(255, 71, 71);
-    box-shadow: inset 1px 2px 8px currentColor;
+    color: red;
+    border: none;
+
+    border: 2px solid red;
+
 }
 
 
