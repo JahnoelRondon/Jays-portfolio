@@ -1,5 +1,5 @@
 .projectsWrapper {
-    background-color: #bfe2ff;
+    background-color: white;
     scroll-margin-top: 6em;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .projLinks a:hover {
-    color: #ffe699;
+    color: rgb(255, 71, 71);
     box-shadow: inset 1px 2px 8px currentColor;
 }
 
