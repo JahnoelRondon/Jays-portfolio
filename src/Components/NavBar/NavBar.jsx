@@ -1,6 +1,7 @@
 import './navbar.css';
 import {HashLink} from 'react-router-hash-link';
 
+
 // create on click functions on nav bar items to scroll down to certain positions, saga gallery example
 
 function NavBar(){

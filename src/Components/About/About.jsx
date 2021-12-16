@@ -1,4 +1,6 @@
 import './about.css'
+import {FaGithub} from 'react-icons/fa'
+import {FaLinkedin} from 'react-icons/fa'
 
 function About(){
     return(
@@ -8,7 +10,13 @@ function About(){
                 <div className='textContainer'>
                     <h3>About Me</h3>
                     <p>Creative and visually inspired developer who is driven to bring ideas to life. I bring a curious and tenacious mindset when learning and taking on new challenges. My past experience as a retention specialist at a staffing agency for unemployed job seekers during covid helped me manage stressful situations and unrealistic expectations. I constantly find out of the box solutions that create interactive and seamless design centered applications that delight users and clients alike.</p>
-                    <a className='resume' href="/resume/Jahnoel Rondon 20201.pdf" download>Download Resume</a>
+
+                    <div className="aboutLinks">
+                        <a className='resume' href="/resume/Jahnoel Rondon 20201.pdf" download>Download Resume</a>
+                        <a className="joblinks" href='https://www.linkedin.com/in/jahnoel-rondon/' target="_blank" rel="noreferrer"><FaLinkedin /></a>
+                        <a className="joblinks" href='https://github.com/JahnoelRondon' target="_blank" rel="noreferrer"><FaGithub /></a>
+                    </div>
+
                 </div>
             </div>
         </section>

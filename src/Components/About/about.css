@@ -46,22 +46,46 @@
     padding: 0 20px;
 }
 
+.aboutLinks {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.aboutLinks a {
+    margin: 0 5px;
+}
+
+.joblinks {
+    height: 34px;
+    font-size: 34px;
+    align-self: center;
+}
+
+.aboutLinks a svg {
+    color: #142f43;
+    transition: all 0.5s;
+}
+
+.aboutLinks a svg:hover {
+    color: red;
+}
+
 .resume {
-    border: 2px solid black;
+    border: 3px solid #142f43;
     display: inline-block;
     text-decoration: none;
     width: 200px;
-    color: black;
+    color: #142f43;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
     transition: all 0.5s;
-    align-self: center;
 }
 
 .resume:hover {
     color: red;
-    border: 2px solid red;
+    border: 3px solid red;
 }
 
 @media only screen and (max-width: 600px){
