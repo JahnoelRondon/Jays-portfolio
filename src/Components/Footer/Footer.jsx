@@ -3,7 +3,7 @@ import './footer.css'
 function Footer(){
     return(
         <footer>
-            <p>Developed and Designed by Jahnoel Rondon - ©2021</p>
+            <a href='https://github.com/JahnoelRondon/Jays-portfolio' target='_blank'>Developed and Designed by Jahnoel Rondon - ©2021</a>
         </footer>
     )
 }
