@@ -10,9 +10,9 @@ function Contact(){
             <h1>Contact Me</h1>    
             <p>Can't wait to hear from you!</p>
             <div className='contactsContainer'>
-                <a href='https://www.linkedin.com/in/jahnoel-rondon/' target="_blank" rel="noreferrer"><FaLinkedin /></a>
-                <a href='https://github.com/JahnoelRondon' target="_blank" rel="noreferrer"><FaGithub /></a>
-                <a href='https://docs.google.com/document/d/1qcJAlUJhcxAQ0bm_4gw8cMzKOaDEF0XqViAIZ1By0iI/edit?usp=sharing' target="_blank" rel="noreferrer"><BsFillFileEarmarkTextFill /></a>
+                <a href='https://www.linkedin.com/in/jahnoel-rondon/' target="_blank" rel="noreferrer" className='tooltip'><FaLinkedin /><span class="tooltiptext">Linkedin</span></a>
+                <a href='https://github.com/JahnoelRondon' target="_blank" rel="noreferrer" class="tooltip"><FaGithub /><span class="tooltiptext">GitHub</span></a>
+                <a href='https://docs.google.com/document/d/1qcJAlUJhcxAQ0bm_4gw8cMzKOaDEF0XqViAIZ1By0iI/edit?usp=sharing' target="_blank" rel="noreferrer" className='tooltip'><BsFillFileEarmarkTextFill /><span class="tooltiptext">Resume</span></a>
             </div>
 
             <form action="https://formsubmit.co/jahnoelrondon03@gmail.com" method="POST" id='usrform' autocomplete="off" className='contactFlex'>

@@ -30,6 +30,31 @@
     margin-bottom: 10px;
 }
 
+.tooltip {
+    position: relative;
+
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #142f42;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+      /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 .contactsContainer a {
     margin: 0 5px;
 }
