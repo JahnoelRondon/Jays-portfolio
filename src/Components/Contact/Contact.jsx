@@ -1,6 +1,7 @@
 import './contact.css'
 import {FaGithub} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
+import { BsFillFileEarmarkTextFill } from 'react-icons/bs'
 
 
 function Contact(){
@@ -11,6 +12,7 @@ function Contact(){
             <div className='contactsContainer'>
                 <a href='https://www.linkedin.com/in/jahnoel-rondon/' target="_blank" rel="noreferrer"><FaLinkedin /></a>
                 <a href='https://github.com/JahnoelRondon' target="_blank" rel="noreferrer"><FaGithub /></a>
+                <a href='https://docs.google.com/document/d/1qcJAlUJhcxAQ0bm_4gw8cMzKOaDEF0XqViAIZ1By0iI/edit?usp=sharing' target="_blank" rel="noreferrer"><BsFillFileEarmarkTextFill /></a>
             </div>
 
             <form action="https://formsubmit.co/jahnoelrondon03@gmail.com" method="POST" id='usrform' autocomplete="off" className='contactFlex'>
