@@ -1,6 +1,6 @@
 # Jahnoels Portfolio
 
-[Visit Portfolio Here](https://xenodochial-elion-7e9e68.netlify.app)
+[Visit Portfolio Here](https://www.jayrondon.com/)
 
 ## General 
 
