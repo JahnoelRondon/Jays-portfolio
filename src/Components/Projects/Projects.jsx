@@ -3,7 +3,15 @@ import './projects.css'
 function Projects(){
 
     let proj = [
-        // add To do proj here
+        {
+            title: 'MovieMoose', 
+            desc: 'MovieMoose is a movie watchlist app where you can search a movie title, see top results, and add them to a watchlist as well as delete them from the watchlist.',
+            tech: "React, Material UI, Javascript, TMDB API, HTML and CSS",
+            img:'https://i.imgur.com/Rc6Hp11.png',
+            deployLink: 'https://relaxed-golick-f575a4.netlify.app/WatchList',
+            ghubLink: 'https://github.com/JahnoelRondon/MovieMoose'
+
+        },
         {
             title: 'Marq', 
             desc: 'Marq is a organizational/list-making application. It has many features to keep track of your time management as well as planning. There are many todo apps however Marq tackles the list making apps from a different angle and seperates the different kind of simple notes a person might make. With Marq you have the utilities right out of the box however you still have the flexibility to choose what you do and how you organize yourself.',

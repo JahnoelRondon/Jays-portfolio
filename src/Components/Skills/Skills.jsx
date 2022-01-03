@@ -8,7 +8,7 @@ function Skills(){
             <div className='skillsContainer'>
                 <div className='skillCard'>
                     <h4>Front-end</h4>
-                    <p>ReactJS - CSS3 - Javascript - DOM Manipulation - Responsive Design - HTML - Flex Box - CSS Grid - Bootstrap</p>
+                    <p>React - Material UI - CSS3 - Javascript - DOM Manipulation - Responsive Design - HTML - Flex Box/Grid - Bootstrap</p>
                 </div>
 
                 <div className='skillCard'>
@@ -18,7 +18,7 @@ function Skills(){
 
                 <div className='skillCard'>
                     <h4>Other</h4>
-                    <p>Github - Git - Heroku - OOP - Netlify - C# - Unity - Whimsicle - ERD charts</p>
+                    <p>Github - Git - Heroku - OOP - Netlify - C# - Unity - Whimsicle</p>
                 </div>
             </div>
         </section>
