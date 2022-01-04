@@ -8,7 +8,7 @@ function Projects(){
             desc: 'MovieMoose is a movie watchlist app where you can search a movie title, see top results, and add them to a watchlist as well as delete them from the watchlist.',
             tech: "React, Material UI, Javascript, TMDB API, HTML and CSS",
             img:'https://i.imgur.com/Rc6Hp11.png',
-            deployLink: 'https://relaxed-golick-f575a4.netlify.app/WatchList',
+            deployLink: 'https://relaxed-golick-f575a4.netlify.app',
             ghubLink: 'https://github.com/JahnoelRondon/MovieMoose'
 
         },
