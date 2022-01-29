@@ -23,15 +23,14 @@ function Projects(){
         },
 
         {
-            title: 'Travutan', 
-            desc: 'Travutanrocketrocket is a web app that allows travelers to find everything they’re looking for about their next destination. Connecting travelers looking for help to find potential destinations, or simply browsing to know more about a specific destination.',
-            tech: "RoadGoat API, React, Node.js, Express, MongoDB, Javascript, HTML, CSS",
-            img:'https://i.imgur.com/lvS01Bd.png',
-            deployLink: null,
-            ghubLink: 'https://github.com/lrmoon/travutan'
+            title: 'Giph Ground', 
+            desc: 'Inspired by Giphy and Reacts project example "Snap Shot" Giph Ground was made for us meme lovers. Get your Giph on and start searching! You can see Giphys top trending memes that change daily, or view by categories in the app.',
+            tech: "React, Styled Component, Javascript, Bootstrap, Giphy API, React Router v6, HTML",
+            img:'https://i.imgur.com/z72t2MK.png?1',
+            deployLink: 'https://pensive-mahavira-bffa2d.netlify.app',
+            ghubLink: 'https://github.com/JahnoelRondon/GiphGround'
 
         },
-
         {
             title: 'Gnome Home', 
             desc: 'Gnome home is a place for us folk tale loving historians. Here you will find mythology throughout history from different pantheons and cultures and be able to review them. Fill your curiosity and Submit your interest.',
@@ -41,6 +40,17 @@ function Projects(){
             ghubLink: 'https://github.com/JahnoelRondon/Gnome-Home'
 
         },
+
+        {
+            title: 'Travutan', 
+            desc: 'Travutanrocketrocket is a web app that allows travelers to find everything they’re looking for about their next destination. Connecting travelers looking for help to find potential destinations, or simply browsing to know more about a specific destination.',
+            tech: "RoadGoat API, React, Node.js, Express, MongoDB, Javascript, HTML, CSS",
+            img:'https://i.imgur.com/lvS01Bd.png',
+            deployLink: null,
+            ghubLink: 'https://github.com/lrmoon/travutan'
+
+        },
+
 
         {
             title: 'Creature Slayers', 
