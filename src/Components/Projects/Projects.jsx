@@ -13,12 +13,12 @@ function Projects(){
 
         },
         {
-            title: 'MovieMoose', 
-            desc: 'MovieMoose is a movie watchlist app where you can search a movie title, see top results, and add them to a watchlist as well as delete them from the watchlist.',
-            tech: "React, Material UI, Javascript, TMDB API, HTML and CSS",
-            img:'https://i.imgur.com/Rc6Hp11.png',
-            deployLink: 'https://relaxed-golick-f575a4.netlify.app',
-            ghubLink: 'https://github.com/JahnoelRondon/MovieMoose'
+            title: 'Totally Tarot', 
+            desc: 'This website is to help you learn and discover the meaning behind the classic tarot cards. You can go and instantly find the cards with no hassle through a filtered search as well as by category. No long boring paragraph of Lore and history, simply just cards and their meanings.',
+            tech: "React, CSS, Javascript, Typescript, React Router v6",
+            img:'https://i.imgur.com/ojl0kkF.png',
+            deployLink: 'https://totallytarot.netlify.app/',
+            ghubLink: 'https://github.com/JahnoelRondon/tarot'
 
         },
         {
@@ -28,6 +28,15 @@ function Projects(){
             img:'https://i.imgur.com/ryY4RLb.png',
             deployLink: 'https://p4marq.herokuapp.com/',
             ghubLink: 'https://github.com/JahnoelRondon/Marq-1'
+
+        },
+        {
+            title: 'MovieMoose', 
+            desc: 'MovieMoose is a movie watchlist app where you can search a movie title, see top results, and add them to a watchlist as well as delete them from the watchlist.',
+            tech: "React, Material UI, Javascript, TMDB API, HTML and CSS",
+            img:'https://i.imgur.com/Rc6Hp11.png',
+            deployLink: 'https://relaxed-golick-f575a4.netlify.app',
+            ghubLink: 'https://github.com/JahnoelRondon/MovieMoose'
 
         },
         {
