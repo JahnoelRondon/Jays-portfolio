@@ -4,6 +4,15 @@ function Projects(){
 
     let proj = [
         {
+            title: 'Giph Ground', 
+            desc: 'Inspired by Giphy and Reacts project example "Snap Shot" Giph Ground was made for us meme lovers. Get your Giph on and start searching! You can see Giphys top trending memes that change daily, or view by categories in the app.',
+            tech: "React, Styled Component, Javascript, Bootstrap, Giphy API, React Router v6, HTML",
+            img:'https://i.imgur.com/z72t2MK.png?1',
+            deployLink: 'https://giphground.netlify.app/',
+            ghubLink: 'https://github.com/JahnoelRondon/GiphGround'
+
+        },
+        {
             title: 'MovieMoose', 
             desc: 'MovieMoose is a movie watchlist app where you can search a movie title, see top results, and add them to a watchlist as well as delete them from the watchlist.',
             tech: "React, Material UI, Javascript, TMDB API, HTML and CSS",
@@ -21,16 +30,6 @@ function Projects(){
             ghubLink: 'https://github.com/JahnoelRondon/Marq-1'
 
         },
-
-        {
-            title: 'Giph Ground', 
-            desc: 'Inspired by Giphy and Reacts project example "Snap Shot" Giph Ground was made for us meme lovers. Get your Giph on and start searching! You can see Giphys top trending memes that change daily, or view by categories in the app.',
-            tech: "React, Styled Component, Javascript, Bootstrap, Giphy API, React Router v6, HTML",
-            img:'https://i.imgur.com/z72t2MK.png?1',
-            deployLink: 'https://pensive-mahavira-bffa2d.netlify.app',
-            ghubLink: 'https://github.com/JahnoelRondon/GiphGround'
-
-        },
         {
             title: 'Gnome Home', 
             desc: 'Gnome home is a place for us folk tale loving historians. Here you will find mythology throughout history from different pantheons and cultures and be able to review them. Fill your curiosity and Submit your interest.',
@@ -40,7 +39,6 @@ function Projects(){
             ghubLink: 'https://github.com/JahnoelRondon/Gnome-Home'
 
         },
-
         {
             title: 'Travutan', 
             desc: 'Travutanrocketrocket is a web app that allows travelers to find everything they’re looking for about their next destination. Connecting travelers looking for help to find potential destinations, or simply browsing to know more about a specific destination.',
@@ -50,8 +48,6 @@ function Projects(){
             ghubLink: 'https://github.com/lrmoon/travutan'
 
         },
-
-
         {
             title: 'Creature Slayers', 
             desc: 'Creature Slayers is a Turn Based Web Browser game where you hunt down creatures for a bounty. The game was heavily inspired by hearthstone, wizard101, and magic the gathering.',
@@ -59,9 +55,7 @@ function Projects(){
             img:'https://i.imgur.com/ejxU7Jh.png',
             deployLink: 'https://youthful-goldwasser-877b0e.netlify.app/',
             ghubLink: 'https://github.com/JahnoelRondon/TurnBasedGame'
-
         },
-
     ]
 
     return (
