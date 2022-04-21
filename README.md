@@ -2,6 +2,8 @@
 
 [Visit Portfolio Here](https://www.jayrondon.com/)
 
+![Portfolio](https://i.imgur.com/pqqDu7i.png)
+
 ## General 
 
 This repo is an ongoing project for my portfolio. 
