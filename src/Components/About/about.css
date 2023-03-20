@@ -12,19 +12,19 @@
 
     padding: 20px;
     
-    box-shadow: 2px 2px 18px black;
+    /* box-shadow: 2px 2px 18px black; */
     background-color: white;
 }
 
 .aboutContainer img {
-    margin: auto 0;
-    box-shadow: 2px 2px 8px black;
+    box-shadow: 0px 0px 20px 0px black;
 }
+
 
 .textContainer {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding-left: 20px;
 
     letter-spacing: 2px;
     line-height: 26px;
@@ -32,25 +32,26 @@
 
 .textContainer h3 {
     font-size: 34px;
-    padding: 20px 0;
+    padding-bottom: 20px;
     text-align: center;
-    letter-spacing: 4px;
-    border-bottom: black 2px solid;
-    margin: 0 20px 20px 20px;
+    letter-spacing: 3px;
+    border-bottom: black 4px solid;
+    margin: 0 auto 20px 20px;
 }
 
 .textContainer p {
     font-size: 18px;
     font-family: system-ui;
+    letter-spacing: 1px;
     font-weight: 420;
     padding: 0 20px;
 }
 
 .aboutLinks {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
-    margin-top: 20px;
+    margin: 20px 0 0 10px;
 }
 
 .aboutLinks a {
