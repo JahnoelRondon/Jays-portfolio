@@ -11,7 +11,7 @@
     margin: 0 auto;
 
     padding: 20px;
-    
+
     /* box-shadow: 2px 2px 18px black; */
     background-color: white;
 }
@@ -30,8 +30,7 @@
     line-height: 26px;
 }
 
-.textContainer h3 {
-    font-size: 34px;
+.textContainer .about {
     padding-bottom: 20px;
     text-align: center;
     letter-spacing: 3px;
@@ -56,6 +55,8 @@
 
 .aboutLinks a {
     margin: 0 5px;
+    font-weight: 500;
+    letter-spacing: 0;
 }
 
 .joblinks {
@@ -89,7 +90,7 @@
     border: 3px solid red;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     .aboutFlex {
         border-radius: 0;
     }

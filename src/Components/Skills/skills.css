@@ -1,74 +1,80 @@
 .skillSection {
-    background-color: #142F43;
-    padding: 20px 0 30px 0;
-    scroll-margin-top: 5em;
-}
-
-.skillsTitle {
-    color: white;
-    padding: 20px 0 30px 0;
-    margin: 0 50px 20px 50px;
-    font-size: 34px;
-    text-align: center;
-    border-bottom: 2px white solid;
+  background-color: #142f43;
+  padding: 20px 0 30px 0;
+  scroll-margin-top: 5em;
 }
 
 .skillsContainer {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    width: 100%;
-    transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  width: 100%;
+  transition: all 0.5s;
 }
 
 .skillCard {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 10px 20px 10px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 2px 2px 8px black;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  /* box-shadow: 0px 0px 4px black; */
+  border: 1px solid gray;
+  width: 25%;
+  transition: all 0.5s;
+  font-size: 24px;
+}
 
-    width: 30%;
-    transition: all 0.5s;
+.skillIcon {
+  background-color: #ef5350;
+  width: 64px;
+  height: 64px;
+  font-size: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillIcon svg {
+  padding: 4px;
+}
+
+.skillCard .skillInfo {
+    color: red;
+    font-size: 0.8em;
+    padding: 0;
 }
 
 .skillCard:hover {
-    box-shadow: 2px 2px 8px #ffdfdf;
-    background-color: white;
-    transform: skew(-2deg);
+  transform: skew(-2deg);
+  box-shadow: 0px 0px 4px black;
 }
 
-.skillCard h4{
-    padding: 20px 0;
-    text-decoration: underline;
-    letter-spacing: 2px;
-    font-size: 24px;
+.skillCard h4 {
+  padding: 20px 0 4px 0;
+  letter-spacing: 2px;
 }
 
-
-.skillCard p{
-    padding: 16px 10px;
-    line-height: 24px;
-    letter-spacing: 1.5px;
+.skillCard p {
+  padding: 16px 10px;
+  line-height: 24px;
+  font-weight: 450;
+  font-size: 0.7em;
 }
 
 @media only screen and (max-width: 700px) {
+  .skillsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .skillCard {
+    width: 80%;
+  }
 
-    .skillsContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .skillCard {
-        width: 80%;
-    }
-
-    .skillCard p {
-        font-size: 16px;
-    }
-
+  .skillCard p {
+    /* font-size: 16px; */
+  }
 }

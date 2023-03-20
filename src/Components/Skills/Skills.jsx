@@ -1,28 +1,52 @@
-import './skills.css'
+import "./skills.css";
+import { FaServer } from "react-icons/fa";
+import { FaTools } from "react-icons/fa";
+import { ImPaintFormat } from "react-icons/im";
 
-function Skills(){
-    return (
-        <section className='skillSection' id='skills'>
-            <h2 className='skillsTitle'>Technical Skills</h2>
-            
-            <div className='skillsContainer'>
-                <div className='skillCard'>
-                    <h4>Front-end</h4>
-                    <p>React ~ Material UI ~ CSS3 ~ Javascript ~ DOM Manipulation ~ Responsive Design ~ HTML ~ Flex Box/Grid ~ Bootstrap</p>
-                </div>
+const SkillInfoData = [
+  {
+    title: "Frontend",
+    summary:
+      "I love to wonder, and enjoy bringing my imaginations and ideas to life on the screen.",
+    tools:
+      "React ~ Material UI ~ CSS3 ~ Javascript ~ DOM Manipulation ~ Responsive Design ~ HTML ~ Flex Box/Grid ~ Bootstrap ~ WireFraming",
+    icon: <ImPaintFormat />,
+  },
+  {
+    title: "Backend",
+    summary:
+      "I value the ability that allows the manipulation of data as it moves back and forth between the user and the server. ",
+    tools:
+      "MongoDB ~ NodeJS ~ Express ~ Mongoose ~ Django ~ Python ~ RESTful API ~ Fetch ~ SQL ~ PostgreSQL ~ MySQL",
+    icon: <FaServer />,
+  },
+  {
+    title: "Development",
+    summary:
+      "I genuinely enjoy expanding my creativity when it comes to developing not only the web, but creating/editing videos and video games.",
+    tools:
+      "Github ~ Git ~ Heroku ~ Netlify ~ Railway ~ Appian ~ C# ~ Unity Game Engine",
+    icon: <FaTools />,
+  },
+];
 
-                <div className='skillCard'>
-                    <h4>Back-end</h4>
-                    <p>MongoDB ~ NodeJS ~ Express ~ Mongoose ~ Django ~ Python ~ RESTful API ~ Fetch ~ SQL ~ PostgreSQL ~ MySQL</p>
-                </div>
-
-                <div className='skillCard'>
-                    <h4>Other</h4>
-                    <p>Github ~ Git ~ Heroku ~ Netlify ~ Railway ~ Appian ~ C# ~ Unity ~ WireFraming</p>
-                </div>
+function Skills() {
+  return (
+    <section className="skillSection" id="skills">
+      <div className="skillsContainer">
+        {SkillInfoData &&
+          SkillInfoData.map((skill) => (
+            <div className="skillCard">
+              <div className="skillIcon">{skill.icon}</div>
+              <h4>{skill.title}</h4>
+              <p>{skill.summary}</p>
+              <p className="skillInfo">Tools:</p>
+              <p>{skill.tools}</p>
             </div>
-        </section>
-    )
+          ))}
+      </div>
+    </section>
+  );
 }
 
-export default Skills
+export default Skills;
