@@ -29,8 +29,7 @@
 .projCard img {
   width: 100%;
   height: 260px;
-  box-shadow: 0px 0px 12px gray;
-  border: 2px solid gray;
+  box-shadow: 0px 4px 12px rgb(63, 63, 63);
 }
 
 .projCard img:hover {
@@ -38,7 +37,13 @@
 }
 
 .projDetails {
-    padding-top: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projDetails .techs {
+  height: 60px;
 }
 
 .projCard p {
@@ -55,7 +60,7 @@
 }
 
 .projLinks {
-  padding: 20px 0;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
@@ -82,7 +87,15 @@
 
 @media only screen and (max-width: 700px) {
   .projCard p {
-    font-size: 0.5em;
     line-height: 24px;
+  }
+
+  .projDetails .techs {
+    height: 120px;
+  }
+
+  .projCard {
+    border: 2px solid black;
+    padding: 20px;
   }
 }

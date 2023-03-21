@@ -63,7 +63,7 @@ function Projects() {
   return (
     <section className="projectsWrapper" id="projects">
       <h1 className="projTitle">My Projects</h1>
-      <p style={{ textAlign: "center" }}>
+      <p style={{ textAlign: "center", fontSize: "0.6em" }}>
         Here are a few past projects I've worked on. Want to see more?{" "}
         <a
           href="mailto:jahnoelrondon03@gmail.com"
@@ -82,7 +82,7 @@ function Projects() {
                 <br></br>
                 {obj.desc}
               </p> */}
-              <p>
+              <p className="techs">
                 <strong>Technologies</strong>
                 <br></br>
                 {obj.tech}
