@@ -1,109 +1,113 @@
 .aboutContainer {
-    width: 100%;
-    padding: 40px 0;
-    scroll-margin-top: 4em;
+  width: 100%;
+  padding: 40px 0;
+  scroll-margin-top: 4em;
 }
 
 .aboutFlex {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    margin: 0 auto;
-
-    padding: 20px;
-
-    /* box-shadow: 2px 2px 18px black; */
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
 }
 
 .aboutContainer img {
-    box-shadow: 0px 0px 20px 0px black;
+  box-shadow: 0px 0px 10px 0px black;
+  width: 144px;
+  height: 146px;
+  border-radius: 60%;
+  background-position: center;
 }
 
-
 .textContainer {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-
-    letter-spacing: 2px;
-    line-height: 26px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  align-items: center;
+  letter-spacing: 2px;
+  line-height: 26px;
 }
 
 .textContainer .about {
-    padding-bottom: 20px;
-    text-align: center;
-    letter-spacing: 3px;
-    border-bottom: black 4px solid;
-    margin: 0 auto 20px 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  letter-spacing: 3px;
+  border-bottom: black 4px solid;
+  margin: 20px 0;
 }
 
 .textContainer p {
-    font-size: 18px;
-    font-family: system-ui;
-    letter-spacing: 1px;
-    font-weight: 420;
-    padding: 0 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: system-ui;
+  letter-spacing: 1px;
+  font-weight: 420;
+  padding: 0 20px;
 }
 
 .aboutLinks {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    margin: 20px 0 0 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 20px 0 0 10px;
 }
 
 .aboutLinks a {
-    margin: 0 5px;
-    font-weight: 500;
-    letter-spacing: 0;
+  margin: 0 5px;
+  font-weight: 500;
+  letter-spacing: 0;
 }
 
 .joblinks {
-    height: 34px;
-    font-size: 34px;
-    align-self: center;
+  height: 34px;
+  font-size: 34px;
+  align-self: center;
 }
 
 .aboutLinks a svg {
-    color: #142f43;
-    transition: all 0.5s;
+  color: #142f43;
+  transition: all 0.5s;
 }
 
 .aboutLinks a svg:hover {
-    color: red;
+  color: red;
 }
 
 .resume {
-    border: 3px solid #142f43;
-    display: inline-block;
-    text-decoration: none;
-    width: 200px;
-    color: #142f43;
-    text-align: center;
-    padding: 10px 0;
-    transition: all 0.5s;
+  border: 3px solid #142f43;
+  display: inline-block;
+  text-decoration: none;
+  width: 200px;
+  color: #142f43;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.5s;
 }
 
 .resume:hover {
-    color: red;
-    border: 3px solid red;
+  color: red;
+  border: 3px solid red;
 }
 
 @media only screen and (max-width: 600px) {
-    .aboutFlex {
-        border-radius: 0;
-    }
-
-    .textContainer p {
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 1.2px;
-    }
+  .textContainer p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+  }
 }
 
-@media only screen and (max-width: 750px) {
-    .aboutContainer img {
-        display: none;
-    }
+@media only screen and (max-width: 800px) {
+  .aboutFlex {
+    width: 80%;
+  }
+
+  .aboutContainer img {
+    width: 100px;
+    height: 102px;
+  }
 }
