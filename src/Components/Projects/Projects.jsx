@@ -21,12 +21,12 @@ function Projects() {
           <div className="projCard" key={idx}>
             <ImageVideo defaultImage={obj.img} video={obj.video} title={obj.title}/>
             <div className="projDetails">
-              {/* <p>
+              <p className="specText">
                 <strong>Description</strong>
                 <br></br>
                 {obj.desc}
-              </p> */}
-              <p className="techs">
+              </p>
+              <p className="techs specText">
                 <strong>Technologies</strong>
                 <br></br>
                 {obj.tech}
