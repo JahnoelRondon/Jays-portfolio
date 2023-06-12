@@ -34,12 +34,12 @@
     backdrop-filter: blur(10px);
 }
 
-.bannerContainer:hover h1 {
+.bannerContainer:hover div.h1 {
     animation: zoom 0.9s;
     animation-iteration-count: 2;
 }
 
-.bannerContainer:hover .position {
+.bannerContainer:hover div.position {
     animation: zoom2 1.3s;
 }
 
