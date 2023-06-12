@@ -19,7 +19,7 @@ const SkillInfoData = [
         icon: <FaServer />,
     },
     {
-        title: "Development",
+        title: "Other",
         summary:
             "I genuinely enjoy expanding my creativity when it comes to developing not only the web, but creating/editing videos and video games.",
         tools: "Github ~ Git ~ AWS S3 ~ Heroku ~ Netlify ~ Railway ~ Appian ~ C# ~ Unity",
