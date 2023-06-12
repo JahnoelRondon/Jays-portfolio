@@ -3,9 +3,10 @@ import {
   GiphGround,
   GnomeHome,
   Tarot,
-  Slayers,
+  // Slayers,
   MovieMoose,
   Maintenance,
+  HeartBlast,
 } from "../../assets";
 
 export let projects = [
@@ -28,15 +29,6 @@ export let projects = [
     video: GiphGround,
   },
   {
-    title: "Marq",
-    desc: "Marq is a organizational/list-making application. It has many features to keep track of your time management as well as planning. There are many todo apps however Marq tackles the list making apps from a different angle and seperates the different kind of simple notes a person might make. With Marq you have the utilities right out of the box however you still have the flexibility to choose what you do and how you organize yourself.",
-    tech: "Django, Python, PostgreSQL, Bootstrap, Javascript, HTML and CSS",
-    img: "https://i.imgur.com/ryY4RLb.png",
-    deployLink: null,
-    ghubLink: "https://github.com/JahnoelRondon/Marq-1",
-    video: Maintenance,
-  },
-  {
     title: "Gnome Home",
     desc: "Gnome home is a place for us folk tale loving historians. Here you will find mythology throughout history from different pantheons and cultures and be able to review them. Fill your curiosity and Submit your interest.",
     tech: "Node.js, Express, Mongoose, MongoDB, GoogleoAuth, Passport, EJS templates, Javascript, CSS, HTML",
@@ -44,6 +36,24 @@ export let projects = [
     deployLink: "https://gnome-home-production.up.railway.app/",
     ghubLink: "https://github.com/JahnoelRondon/Gnome-Home",
     video: GnomeHome,
+  },
+  {
+    title: "HeartBlast",
+    desc: "A new and exciting take on brick breaker games where skill, reflexes, and a bit of luck can determine a win or loss. Come and play 100 unique hand crafted levels that will throw you off and test your senses",
+    tech: "C#, Unity, Blender",
+    img: "https://i.imgur.com/ydC2otc.png",
+    deployLink: "https://jayyron.itch.io/heart-blast-release",
+    ghubLink: "https://jayyron.itch.io/",
+    video: HeartBlast,
+  },
+  {
+    title: "Marq",
+    desc: "Marq is a organizational/list-making application. It has many features to keep track of your time management as well as planning. There are many todo apps however Marq tackles the list making apps from a different angle and seperates the different kind of simple notes a person might make. With Marq you have the utilities right out of the box however you still have the flexibility to choose what you do and how you organize yourself.",
+    tech: "Django, Python, PostgreSQL, Bootstrap, Javascript, HTML and CSS",
+    img: "https://i.imgur.com/ryY4RLb.png",
+    deployLink: null,
+    ghubLink: "https://github.com/JahnoelRondon/Marq-1",
+    video: Maintenance,
   },
   {
     title: "Travutan",
@@ -63,13 +73,13 @@ export let projects = [
     ghubLink: "https://github.com/JahnoelRondon/tarot",
     video: Tarot,
   },
-  {
-    title: "Creature Slayers",
-    desc: "Creature Slayers is a Turn Based Web Browser game where you hunt down creatures for a bounty. The game was heavily inspired by hearthstone, wizard101, and magic the gathering.",
-    tech: "Javascript, DOM manipulation & event listeners, HTML, CSS",
-    img: "https://i.imgur.com/ejxU7Jh.png",
-    deployLink: "https://youthful-goldwasser-877b0e.netlify.app/",
-    ghubLink: "https://github.com/JahnoelRondon/TurnBasedGame",
-    video: Slayers,
-  },
+  // {
+  //   title: "Creature Slayers",
+  //   desc: "Creature Slayers is a Turn Based Web Browser game where you hunt down creatures for a bounty. The game was heavily inspired by hearthstone, wizard101, and magic the gathering.",
+  //   tech: "Javascript, DOM manipulation & event listeners, HTML, CSS",
+  //   img: "https://i.imgur.com/ejxU7Jh.png",
+  //   deployLink: "https://youthful-goldwasser-877b0e.netlify.app/",
+  //   ghubLink: "https://github.com/JahnoelRondon/TurnBasedGame",
+  //   video: Slayers,
+  // },
 ];

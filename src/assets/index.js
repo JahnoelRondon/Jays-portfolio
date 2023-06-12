@@ -5,6 +5,7 @@ import GnomeHome from "./videos/gnomehome.mp4";
 import MovieMoose from "./videos/movemoose.mp4";
 import Slayers from "./videos/slayervid.mp4";
 import Tarot from "./videos/tarot.mp4";
+import HeartBlast from "./videos/HeartBlast.mp4"
 
 export {
   Construction,
@@ -14,4 +15,5 @@ export {
   Slayers,
   Tarot,
   Maintenance,
+  HeartBlast,
 };
